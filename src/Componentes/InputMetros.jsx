@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { AppContext } from "../AppContext.jsx";
+import { AppContext } from "./AppContext.jsx";
 
 function InputMetros(){
     const { form, setForm } = useContext(AppContext);

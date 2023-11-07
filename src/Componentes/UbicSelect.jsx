@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { AppContext } from "../AppContext.jsx";
+import { AppContext } from "./AppContext";
 
 function UbicacionSelect() {
     const { ubicaciones, form, setForm } = useContext(AppContext);
@@ -27,4 +27,4 @@ function UbicacionSelect() {
     )
 }
 
-export default UbicSelect
+export default UbicacionSelect

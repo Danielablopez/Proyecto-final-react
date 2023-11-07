@@ -1,7 +1,7 @@
 import { useContext } from "react";
-import { AppContext } from "../AppContext.jsx";
+import { AppContext } from "./AppContext";
 
-function PropiedadesSelect() {
+function PropSelect() {
     const { propiedades, form, setForm } = useContext(AppContext);
 
     const handleChange = (event) => {

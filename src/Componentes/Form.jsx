@@ -1,8 +1,8 @@
 import InputMetros from "./InputMetros";
-import PropSelect from "./PropSelect";
-import UbicSelect from "./UbicSelect ";
+import PropSelect from "./PropSelect.jsx";
+import UbicSelect from "./UbicSelect.jsx";
 import { useContext } from "react";
-import { AppContext } from "../AppContext.jsx";
+import { AppContext } from "./AppContext.jsx";
 
 function Form() {
   const costoM2 = 35.86;
