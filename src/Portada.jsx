@@ -1,19 +1,18 @@
-// import * as React from "react";
+import * as React from "react";
 import { Link } from "react-router-dom";
-import Form from "./Componentes/Form";
+import Formulario from "./componentes/Form ";
 
-function Portada () {
+function Inicio () {
     
     return (
         <>
-            <br /><h1>Seguros del Hogar 🏬</h1><br />
-            <Form/>
-             <br /> <br /> <Link to={"historial"}>
-             <button id="historial" className="btn-dark">
-                    <span>Ver historial </span>
+            <h1>Seguros del hogar</h1>
+            <Formulario/>
+            <Link to={"historial"}>
+                <button className="btn btn-dark">
+                    Ver el historial
                 </button>
             </Link>
-            
         </>
     )
 }

@@ -1,7 +1,7 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Portada from './Portada'
-import Historial from 'componentes/Historial'
+import Historial from './Historial'
 
 function App() {
 

@@ -1,6 +1,6 @@
-import InputMetros from "./Input.jsx";
-import PropSelect from "./PropSelect.jsx";
-import UbicSelect from "./UbicSelect.jsx";
+import InputMetros from "./InputMetros";
+import PropSelect from "./PropSelect";
+import UbicSelect from "./UbicSelect ";
 import { useContext } from "react";
 import { AppContext } from "../AppContext.jsx";
 
