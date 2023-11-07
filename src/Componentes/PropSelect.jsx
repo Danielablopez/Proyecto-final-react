@@ -27,4 +27,4 @@ function PropiedadesSelect() {
     )
 }
 
-export default PropiedadesSelect
+export default PropSelect
