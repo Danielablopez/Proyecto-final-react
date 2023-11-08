@@ -6,11 +6,12 @@ function Portada () {
     
     return (
         <>
+        
             <h1>Seguros del hogar</h1>
             <Formulario/>
             <Link to={"historial"}>
                 <button className="btn btn-dark">
-                    Ver el historial
+                    Historial
                 </button>
             </Link>
         </>
